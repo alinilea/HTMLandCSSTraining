@@ -1,0 +1,96 @@
+body {
+  background-color: #ADDBA4;
+}
+
+.big-container {
+  width: 100%;
+  font-family: 'Kanit', sans-serif;
+  color: #A7A4A1;
+  /*height: 100vh;*/
+}
+
+.container {
+  width: 960px;
+  /*height: 600px;*/
+  margin: 8% auto;
+  background-color: #FFF;
+  box-shadow: 0 0 7px rgb(110, 110, 119);
+    /*overflow: hidden;*/
+}
+
+nav {
+  width: 960px;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid lightgray;
+  overflow: hidden;
+}
+
+.btnstyle {
+  padding: 0 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.heart {
+  /*font-weight: 300;*/
+  font-size: 40px;
+  /*padding-right: 13px;*/
+}
+
+.image {
+  box-sizing: border-box;
+  /*background-color: green;*/
+  width: 42%;
+  /*height: 540px;*/
+  border-right: 1px solid lightgray;
+}
+
+.the-flower {
+  /*margin: 65px 0;*/
+  width: 100%;
+  /*height: 400px;*/
+}
+
+.content {
+  box-sizing: border-box;
+  /*background-color: gray;*/
+  width: 58%;
+  /*height: 100%;*/
+
+}
+
+.title {
+
+  /*padding: 13px 0 0 20px;*/
+}
+
+
+
+.text-center {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}

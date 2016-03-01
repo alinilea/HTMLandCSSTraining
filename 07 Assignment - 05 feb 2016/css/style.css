@@ -1,0 +1,244 @@
+body {
+  background-image: url(../img/rsz_1trees.jpg);
+}
+
+.the-wrapper {
+  width: 90%;
+  height: auto;
+  margin: 5% auto 0;
+  -webkit-box-shadow: 0 0 40px 20px #000;
+  -moz-box-shadow: 0 0 40px 20px #000;
+  box-shadow: 0 0 40px 20px #111;
+  font-family: times;
+  color: #EEE;
+  background-color: #FFF;
+}
+
+/*the navbar section*/
+
+.navbar-wrapper {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.navbar {
+  color: #333;
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.circle {
+  position: relative;
+  top: 3px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.nvb-right {
+  line-height: 50px;
+  /*padding-top: 5px;*/
+}
+
+.navbar-img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.the-bars-menu {
+  position: relative;
+  top: 4px;
+  margin-left: 90px;
+  font-size: 25px;
+  color: #000;
+}
+
+.navbar .navbar-right {
+  line-height: 50px;
+}
+
+.navbar .navbar-right img {
+  position: relative;
+  bottom: 1.7px;
+  width: 20px;
+  height: 15px;
+
+}
+
+.form-control {
+  border: 0;
+  border: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+}
+
+.btn-default {
+  color: #CACACA;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  border-left: 1px solid #CACACA;
+}
+
+.navbar-bottom {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li {
+  color: #EEE;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #EEE;
+  font-size: 16px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #FFF;
+  background-color: transparent;
+  border-bottom: 2px solid #EEE;
+}
+/*the end of the navbar section*/
+
+.big-img {
+  height: 770px;
+  background: url(../img/rsz_mountain.jpg) no-repeat 100% 100%;
+  background-size: cover;
+}
+
+.the-iceland {
+  padding: 291px 0;
+}
+
+.the-iceland h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.the-iceland h1, .the-iceland h3 {
+  color: #FFF;
+}
+
+p {
+  color: #000;
+  font-size: 16px;
+  padding: 10px 100px;
+  line-height: 25px;
+}
+
+
+.margin-t {
+  margin-top: 50px;
+}
+
+
+.margin-tb {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.margin-b {
+  margin-bottom: 50px;
+}
+
+.no-padding-l {
+  padding-left: 0;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.no-padding-r {
+  padding-right: 0;
+}
+
+h2 {
+  padding-left: 100px;
+  color: #000;
+  font-weight: 700;
+}
+
+figcaption {
+  margin-top: 10px;
+  color: #000;
+  font-size: 16px;
+}
+
+figure img {
+  width: 100%;
+}
+
+.porramatur {
+  padding: 0 0 10px 100px;
+}
+
+.politics-navbar {
+  list-style-type: none;
+  padding-left: 25px;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #777;
+}
+
+
+.politics-navbar li {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 40px;
+}
+
+.politics-navbar a {
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.politics-navbar .selected {
+  border-bottom: 2px solid #000;
+}
+
+
+/*the footer*/
+.row-of-footer-t {
+  background-color: #F5F5F5;
+}
+
+.row-of-footer-t h2 {
+  padding-left: 130px;
+}
+
+.row-of-footer-t a {
+  color: #434343;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.the-first-ul {
+  padding-left: 130px;
+}
+
+.row-of-footer-t li {
+  padding: 10px 0;
+}
+
+.row-of-footer-b a {
+  color: #383838;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+
+.row-of-footer-b li {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+
+/*the end of the footer*/

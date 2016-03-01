@@ -1,0 +1,151 @@
+body {
+  background: url(../img/bcgimg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.fly-away-content {
+  float: none;
+  margin: 4% auto;
+}
+
+.settings {
+  padding: 50px 60px 0;
+}
+
+label {
+  color: #555555;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.row-set {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background-color: #F8F7F0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.plane {
+  position: relative;
+  right: 10px;
+  transform: rotate(44deg);
+  font-size: 50px;
+}
+
+.title {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  position:relative;
+  right: 6px;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.flying-with-select, .typeof-flight-select, .mydates-select {
+  color: #B74351;
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  /*text-align: center;*/
+}
+
+.departure-div, .arrival-div, .flying-with-div,
+.people-total-div, .typeof-flight-div,
+.mydates-div {
+  width: 100%;
+}
+
+.departure-input {
+  width: 237px;
+  border: none;
+  font-size: 26px;
+  font-weight: 500;
+  color: #B74351;
+  background-color: #F8F7F0;
+  text-indent: 5px;
+}
+
+.arrival-input {
+  width: 290px;
+  border: none;
+  font-size: 26px;
+  font-weight: 500;
+  color: #B74351;
+  background-color: #F8F7F0;
+  text-indent: 5px;
+}
+
+.people-total-input {
+  width: 70px;
+  border: none;
+  font-size: 26px;
+  font-weight: 500;
+  color: #B74351;
+  background-color: #F8F7F0;
+  text-indent: 5px;
+}
+
+.departure-input:focus, .arrival-input:focus, .people-total-input:focus {
+  outline: none;
+}
+
+.departure-date-input-m, .departure-date-input-d,
+.return-date-input-m, .return-date-input-d,
+.departure-date-input-y, .return-date-input-y {
+  width: 40px;
+  border: none;
+  font-size: 26px;
+  font-weight: 500;
+  color: #B74351;
+  background-color: #F8F7F0;
+}
+
+.departure-date-input-m:focus, .departure-date-input-d:focus, .departure-date-input-y:focus,
+.return-date-input-m:focus, .return-date-input-d:focus, .return-date-input-y:focus {
+  outline: none;
+}
+
+.departure-div, .flying-with-div, .mydates-div {
+  margin-bottom: 5px;
+}
+
+.arrival-div {
+  margin-bottom: 30px;
+}
+
+.people-total-div, .typeof-flight-div {
+  margin-bottom: 40px;
+}
+
+.calendar {
+  padding-left: 10px;
+  font-size: 27px;
+}
+
+button {
+  color: #FFF;
+  background-color: #B84452;
+  border: 0;
+  padding: 8px 25px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+.slash {
+  color: #A9A9A9;
+  font-size: 26px;
+}
+
+.cf {
+  clear:both;
+}

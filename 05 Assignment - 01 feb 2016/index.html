@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Kanit:400,200' rel='stylesheet' type='text/css'>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel='stylesheet' type='text/css' href='css/normalize.css'>
+  <link rel='stylesheet' type='text/css' href='css/style.css'>
+
+  <title>Alin Ilea-Assignment 05 - Payment</title>
+</head>
+<body>
+  <div class="blurred-bkg"></div>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-100">
+          <img class="pull-left" src="img/jesse.jpg" alt="Jesse picture" />
+          <div class="pull-left pers-info">
+            <h2>JESSE PINKMAN</h2>
+            <h4>Some other descriptive text. Address or email?</h4>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row border-tb">
+        <div class="col-50 pay-details arrow_box text-center">
+          <a href="#"><h4>PAYMENT DETAILS</h4></a>
+        </div>
+        <div class="col-50 bill-info text-center">
+          <a href="#"><h4>BILLING INFO</h4></a>
+        </div>
+      </div>
+
+      <form class="the-form" action="index.html" method="post">
+        <div class="row border-b">
+
+          <div class="col-50 first-name-col">
+            <input class="first-name" type="text" name="name" value="" placeholder="First name" maxlength="20">
+          </div>
+
+          <div class="col-10  sex-col text-center">
+            <input class="sex" type="text" name="name" value="" placeholder="M" maxlength="1">
+          </div>
+
+          <div class="col-40 last-name-col">
+            <input class="last-name" type="text" name="name" value="" placeholder="Last name" maxlength="20">
+          </div>
+        </div>
+
+      <div class="row border-b">
+        <div class="col-100 email-col">
+          <input class="email" type="email" name="name" value="" placeholder="Your email address" maxlength="30">
+        </div>
+      </div>
+
+      <div class="row border-b">
+        <div class="col-100 pay-scope-col">
+          <input class="pay-scope" type="text" name="name" value="" placeholder="What is this payment for?" maxlength="100">
+        </div>
+      </div>
+
+      <div class="row border-b">
+        <div class="col-50 text-center">
+          <h1 id="js-price">$50.00</h1>
+        </div>
+
+        <div class="col-50">
+          <div class="col-33 prices-col-1">
+            <button class="js-btn btn-1-6" type="button" name="button">$1</button>
+          </div>
+
+          <div class="col-33">
+            <button class="js-btn btn-1-6" type="button" name="button">$5</button>
+          </div>
+
+          <div class="col-33">
+            <button class="js-btn btn-1-6" type="button" name="button">$10</button>
+          </div>
+
+          <div class="col-33">
+            <button class="js-btn btn-1-6" type="button" name="button">$20</button>
+          </div>
+
+          <div class="col-33">
+            <button class="js-btn btn-1-6 js-btn-active" type="button" name="button">$50</button>
+          </div>
+
+          <div class="col-33">
+            <button class="js-btn btn-1-6" type="button" name="button">$100</button>
+          </div>
+
+          <div class="col-33">
+            <button class="js-btn btn-7-9" type="button" name="button">$500</button>
+          </div>
+
+          <div class="col-33">
+            <button class="js-btn btn-7-9" type="button" name="button">$1,000</button>
+          </div>
+
+          <div class="col-33">
+            <button class="btn-7-9" type="button" name="button"><span class="susp-points">&#x2022; &#x2022; &#x2022;</span></button>
+            <!-- <button class="btn-7-9" type="button" name="button"><i class="fa fa-ellipsis-h"></i></button> -->
+          </div>
+
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-50 remember-me-col">
+            <input class="input-check-box" type="checkbox" checked name="name" value="">
+            <span>REMEMBER ME</span>
+            <i class="fa fa-info-circle"></i>
+
+          </div>
+          <div class="col-50 text-right">
+            <button class="pay-now" type="submit" name="button">PAY NOW</button>
+          </div>
+        </div>
+
+      </form>
+
+
+
+
+
+
+  </div>
+  <script type="text/javascript" src="js/assignment_05.js"></script>
+</body>
+</html>

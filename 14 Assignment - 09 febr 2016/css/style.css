@@ -1,0 +1,134 @@
+body {
+  background-color: #363C5E;
+}
+
+.container-margins {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  box-shadow: 10px 10px 30px #222;
+  background-color: #F9F8F6;
+}
+
+.coupons {
+  color: #FFF;
+  /*font-size: 28px;
+  font-weight: 500;*/
+}
+
+.discounts {
+  color: #FFF;
+  /*font-size: 28px;
+  font-weight: 500;*/
+}
+
+.discount-info {
+  background-color: #f9f9f8;
+}
+
+.js-wheel {
+  position: absolute;
+  bottom: 101px;
+  left: 187px;
+  width: 134px;
+  transition: transform linear 3s;
+}
+
+.js-wheel-go {
+  -webkit-animation: mywheel 2.3s; /* Chrome, Safari, Opera */
+  animation: mywheel 2.3s;
+  -webkit-animation-timing-function: linear;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mywheel {
+  from {left: 187px;}
+  to {left: 510px;}
+}
+
+.js-rotate {
+  transform: rotate(360deg);
+}
+
+.js-car {
+  background: url(../img/car.png) no-repeat center;
+  background-position-x: 100%;
+  background-size: contain;
+  height: 550px;
+  transition: background-position-x linear 3s;
+}
+
+.js-go {
+  background: url(../img/car.png) no-repeat center;
+  background-position-x: 1123%;
+  background-size: contain;
+  height: 550px;
+}
+
+.get-it {
+  font-size: 28px;
+  font-weight: 700;
+  color: #FFF;
+  background-color: #FE6A00;
+  height: 550px;
+}
+
+.outer-second {
+  position: relative;
+  height: 550px;
+}
+
+.inner-second1 {
+  position: relative;
+  top: 44%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.inner-second2 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+/*
+.inner-second p {
+  text-decoration: none;
+  font-weight: 700;
+  color: #FFF;
+}*/
+
+.margin-b {
+  margin-bottom: 75px;
+}
+
+.di-percentage-h1 {
+  font-size: 100px;
+  color: #FE6601;
+}
+
+.di-percentage-txt {
+  font-size: 40px;
+  color: #363C5E;
+}
+
+.di-code-txt {
+  font-size: 28px;
+  color: #363C5E;
+}
+
+.di-code {
+  font-size: 28px;
+  color: #FE6601;
+}
+
+.text-box-padding {
+  padding: 0 10px 0 60px;
+}
+
+.hr-line {
+  height: 1px;
+  color: #363C5E;
+}

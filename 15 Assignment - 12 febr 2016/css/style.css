@@ -1,0 +1,632 @@
+.navbar1 {
+  border-radius: 0;
+  margin-bottom: 0;
+  height: 40px;
+}
+
+.welcome-msg {
+  font-size: 11px;
+  font-weight: 800;
+  color: #7D7D7D;
+  line-height: 40px;
+}
+
+.navbar-inverse .navbar-nav li>.acc-group {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 10px 15px;
+  color: #7D7D7D;
+  overflow: hidden;
+}
+
+.navbar-inverse .navbar-nav li>.border-r {
+  padding-right: 42px;
+  border-right: 1px solid #333;
+}
+
+.navbar-inverse .navbar-nav li>.navbar-icons {
+  padding: 10px 15px;
+  /*padding: 0 5px;*/
+  border-right: 1px solid #333;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+
+.navbar2 {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  color: #555;
+  border: 2px solid transparent;
+  background-color: #FFF;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #000;
+  background-color: #FFF;
+  border: 2px solid #1C1C1C;
+}
+
+.logo {
+  width: 350px;
+  padding-top: 25px;
+}
+
+.navbar2 .navbar-right {
+  padding: 24px 0 22px;
+}
+
+.navbar2 .navbar-right li a {
+  color: #777;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 18px;
+}
+
+.main-bcg {
+  width: 100%;
+  height: 100%;
+  background: url(../img/xena.jpg);
+  background-size: cover;
+  background-position-x: -88px;
+}
+
+.margin-b {
+  margin-bottom: 10px;
+}
+
+.margin-t {
+  margin-top: 100px;
+}
+
+
+/*the slider*/
+.js-slide {
+  display: none;
+  padding-left: 0;
+  padding-top: 60px;
+  height: 660px;
+  /*background-color: red;*/
+  color: #1C1C1C;
+}
+
+.js-chosen {
+  display: block;
+  /*background-color: white;*/
+  /*color: red;
+  font-size: 28px;
+  font-weight: 800;*/
+}
+
+.js-slide h3 {
+  margin-bottom: 0;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.js-slide h1 {
+  margin-top: 0;
+  font-size: 67px;
+  font-weight: 700;
+}
+
+.hr-welcome {
+  width: 42%;
+  margin-left: 0;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  border: 1px solid #1C1C1C;
+}
+
+.js-slide p {
+  line-height: 20px;
+  margin-bottom: 40px;
+  padding-right: 185px;
+}
+
+.js-slide p::first-letter {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.learn-more {
+  padding-bottom: 20px;
+}
+
+.js-slide a {
+  text-decoration: none;
+  padding: 18px 35px;
+  color: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  border: 2px solid #1C1C1C;
+}
+
+.outer {
+    position: relative;
+    height: 600px;
+}
+
+.inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.js-slider-btn-left, .js-slider-btn-right {
+  padding: 5px 12px;
+  border: 2px solid #1C1C1C;
+  color: #1C1C1C;
+  font-size: 18px;
+  font-weight: 900;
+  background: transparent;
+  margin-top: 220px;
+}
+
+.js-slider-btn-left:focus, .js-slider-btn-right:focus {
+  outline: none;
+}
+
+.img-evz-logo {
+  width: 400px;
+}
+
+/*the end of the slider*/
+
+.empty-col {
+  height: 174px;
+}
+
+
+/*the featured builds section*/
+
+.featured-builds {
+  padding: 15px 18px;
+  color: #FFF;
+  background-color: #1C1C1C;
+  height: 388px;
+}
+
+
+.fb-btn-left, .fb-btn-right {
+  padding: 5px 12px;
+  border: 2px solid #464646;
+  color: #464646;
+  font-size: 15px;
+  font-weight: 900;
+  background: transparent;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.fb-btn-right {
+  border: 2px solid #87BD65;
+  color: #87BD65;
+}
+
+.featured-builds h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.featured-builds p {
+  margin-bottom: 0;
+}
+
+.hr-fb {
+  width: 30%;
+  margin-top: 7px;
+  margin-bottom: 12px;
+  margin-left: 0;
+  border: 1px solid #555;
+}
+
+.status-top h5 {
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+
+.status-top .numbers {
+  text-indent: 2px;
+  text-align: left;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+/*
+.status-top::after {
+  clear: both;
+  display: block;
+  content: "";
+}*/
+
+.clr-red {
+  padding-left: 3px;
+  color: #E1251D;
+}
+
+.clr-green {
+  padding-left: 3px;
+  color: #3EAE2C;
+}
+
+.clr-blue {
+  padding-left: 3px;
+  color: #005DB9;
+}
+
+.clr-violet {
+  padding-left: 3px;
+  color: #73308A;
+}
+
+.clr-gray {
+  color: #262626;
+}
+
+.status-top-img {
+  width: 54px;
+  height: 54px;
+  border: 4px solid #111;
+}
+
+.status-top p {
+  font-size: 9px;
+  margin: 0;
+  text-align: right;
+  line-height: 9px;
+}
+
+.status-top .hams {
+  color: #555;
+  font-size: 7px;
+  font-weight: 800;
+}
+
+
+
+
+/*the end of the featured builds section*/
+
+
+
+
+
+.date {
+  position: absolute;
+      bottom: 206px;
+      left: 85px;
+      width: 40%;
+      padding: 10px 0;
+      color: #FFF;
+      background-color: #1C1C1C;
+}
+
+.date-selected {
+  background-color: #87BD65;
+}
+
+.sanctuary, .vers, .reddit {
+  position: relative;
+  padding: 45px 15px 40px;
+  background-color: #FFF;
+  font-size: 14px;
+}
+
+.sanctuary h4, .vers h4, .reddit h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hr-project {
+  width: 31%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #1C1C1C;
+}
+
+.sanctuary p, .vers p, .reddit p {
+  color: #8E8D8D;
+}
+
+.pad-t {
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*the top 5 plays*/
+
+.top5 {
+  padding: 40px 10px 40px 30px;
+  background-color: #87BD65;
+}
+
+.btn-left, .btn-right {
+  padding: 4px 13px;
+  margin-right: 8px;
+  border: 2px solid #1C1C1C;
+  color: #1C1C1C;
+  font-size: 18px;
+  font-weight: 900;
+  background: transparent;
+}
+
+.the-frame {
+  height: 214px;
+}
+
+.top5-description {
+  padding: 30px 50px 66px 30px;
+  background-color: #FFF;
+  line-height: 22px;
+}
+
+.top5-description p {
+  color: #8E8D8D;
+}
+
+.top5 h3 {
+  color: #20221E;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.top5 h4 {
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+.top5-description h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hr-top5-left {
+  width: 42%;
+  margin-top: 16px;
+  margin-bottom: 28px;
+  margin-left: 0;
+  border: 1px solid #1C1C1C;
+}
+
+.hr-top5-right {
+  width: 14%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  border: 1px solid #1C1C1C;
+}
+/*the end of the top 5 plays section*/
+
+
+/*the transparent-data section*/
+.transparent-data {
+  padding: 1px 0;
+  background-color: #FFF;
+}
+
+.hr-td {
+  width: 6.5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #696969;
+}
+
+blockquote {
+  position: relative;
+  padding: 10px 170px;
+  margin: 0 0 5px;
+  font-size: 16.5px;
+  color: #7E7E7E;
+  text-indent: 20px;
+  border: 0;
+  letter-spacing: .6px;
+  line-height: 28px;
+}
+
+blockquote::after {
+  position: absolute;
+  bottom: -15px;
+  right: 60px;
+  content: url(../img/closing-qm.png);
+}
+
+blockquote::before {
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  content: url(../img/openning-qm.png);
+}
+
+.title {
+  font-size: 20px;
+  color: #313131;
+  margin-top: 40px;
+}
+
+.author {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+/*the end of the transparent-data section*/
+
+
+/*the beginning of the footer section*/
+.row-main-footer {
+  background-color: #252625;
+  color: #FFF;
+}
+
+.footer-top h4 {
+  font-size: 22px;
+}
+
+.footer-top h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #394E2D;
+}
+
+.no-pad-r {
+  padding-right: 0;
+}
+
+.no-pad-lr {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.no-pad-l {
+  padding-left: 0;
+}
+
+.js-footer-top-col {
+  position: relative;
+  padding: 30px 0 15px;
+  border-right: 1px solid #77A65A;
+  background-color: #87BD65;
+  transition: background-color ease .2s;
+  text-align: center;
+}
+
+.js-selected {
+  background-color: #74C145;
+  /*background-color: #91CE6B;*/
+}
+
+.calendar-icon, .event-icon, .like-icon {
+  position: absolute;
+  bottom: 83px;
+  left: 159px;
+  width: 65px;
+  height: 65px;
+  padding: 17px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: inherit;
+  /*text-align: center;*/
+}
+
+
+.footer-middle {
+  color: #4C4F4C;
+  margin-top: 50px;
+}
+
+.footer-middle h4 {
+  color: #F2F2F2;
+}
+
+.hr-footer-middle {
+  width: 82px;
+  margin-left: 0;
+  border: 1px solid #4C4F4C;
+}
+
+.fm-updates-1 {
+  padding-top: 5px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #4C4F4C;
+  color: #797A79;
+}
+
+.fm-updates-2 {
+  padding-top: 5px;
+  color: #797A79
+}
+
+.fm-by-mol {
+  color: #82B762;
+}
+
+.the-clock {
+  font-size: 16px;
+  color: #82B762;
+  margin-right: 8px;
+}
+
+.fm-cup {
+  border-bottom: 1px solid #4C4F4C;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.fm-patch {
+  padding: 5px 10px;
+}
+
+.footer-bottom {
+  padding-bottom: 70px;
+  color: #4C4F4C;
+  font-weight: 600;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #4C4F4C;
+}
+
+.footer-bottom hr {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-top: 1px solid #4C4F4C;
+}
+
+.ministry-league {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.of {
+  position: relative;
+  bottom: 4px;
+  font-size: 13px;
+  font-weight: 900;
+  /* vertical-align: middle; */
+}
+
+.fm-right {
+  padding-left: 15px;
+}
+
+.fm-center {
+  padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*the end of the footer section*/
+
+.cf {
+  clear: both;
+}
