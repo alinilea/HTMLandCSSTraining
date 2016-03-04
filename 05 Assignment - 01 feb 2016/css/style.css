@@ -12,16 +12,28 @@ body {
   /*margin: 0;*/
   /*padding: 0;*/
   /*height: 100%;*/
-  max-height: 100%;
+  /*max-height: 100%;*/
 }
 
+.outer {
+  position: relative;
+  height: 100v;
+  /*left: 25%;*/
+}
+
+.inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 .blurred-bkg {
-  position: fixed;
-  left: 0;
-  right: 0;
-  width: 100%;
+  position: relative;
+  /*left: 0;
+  right: 0;*/
   height: 100vh;
-  z-index: 1;
   background: url("../img/webdev.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-filter: blur(5px);
@@ -32,17 +44,15 @@ body {
 }
 
 .container {
-  position: fixed;
-  top: 10%;
-  left: 30%;
-  z-index: 9999;
+  position: absolute;
   width: 40%;
-  min-height: 700px;
+  top: 50%;
+  left: 30%;
+  transform: translateY(-50%);
   background-color: rgba(255, 255, 255, 0.93);
   font-family: 'Work Sans', sans-serif;
   color: #7E7E7E;
   border: 2px solid #CACACA;
-  /*color: #929292;*/
 }
 
 /* maybe for IE ? */
@@ -394,23 +404,18 @@ h1 {
   font-weight: 600px;
 }
 
-
-/*.input-check-box {
-  position: relative;
-  top: 4px;
-  width: 20px;
-  height: 20px;
-  background-color: #EEE;
-}*/
-
 input[type='checkbox'] {
-    height: 20px;
+  position: relative;
+  top: 6px;
+  width: 25px;
+  height: 25px;
+    /*height: 20px;*/
 	border:1px solid #B5B7B8;
 	font: 14px/26px 'pt-sans', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
 	padding:7px 7px 7px 12px;
 	/*margin:0 0 30px 0;*/
 	background:#FFF;
-	border:1px solid #d5d5d6;
+	border:1px solid #CACACA;
 	outline:none;
 	color:#96999D;
 	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -434,15 +439,6 @@ input[type='checkbox']:focus {
 	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18)!important;
 	   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18)!important;
 	        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18)!important;
-}
-
-input[type='checkbox'] {
-  position: relative;
-  top: 6px;
-  width: 25px;
-  height: 25px;
-  border: 1px solid #CACACA;
-  background: #FFF;
 }
 
 input[type='checkbox']:checked {
